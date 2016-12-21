@@ -26,8 +26,6 @@ public class AppTest
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
-        
-        
     }
 
     /**
@@ -35,11 +33,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
-        
-        
-        
-        
-        
+        assertTrue( true );//这里空格删掉了
     }
 }

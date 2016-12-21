@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class SampleController {
 	private static Logger logger = Logger.getLogger(SampleController.class);
 
-    @RequestMapping("/")
-    @ResponseBody
-    String home() {
-        return "Hello World!你好！！！！！";
-    }
+	@RequestMapping("/")
+	@ResponseBody
+	String home() {
+		return "Hello World!你好！！！！！";
+	}
 
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(SampleController.class, args);
-        logger.info("============= SpringBoot Exer Start Success !!!!=============");
-    }
+	public static void main(String[] args) throws Exception {
+		SpringApplication.run(SampleController.class, args);
+		logger.info("============= SpringBoot Exer Start Success !!!!=============");
+	}
 }

@@ -34,5 +34,6 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );//这里空格删掉了
+        //冲突
     }
 }
